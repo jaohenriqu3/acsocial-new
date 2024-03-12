@@ -43,3 +43,18 @@ h1{
     border-radius: 20px
 } 
 
+.new-button{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    position: relative;
+    margin-left: 180px; 
+    border: none; 
+    background-color:#2290FF; 
+    color: #FFFFFF;
+    cursor: pointer; 
+    width: 86px;
+    height: 34px; 
+    border-radius: 8px; 
+}
+

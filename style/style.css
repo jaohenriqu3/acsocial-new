@@ -3,7 +3,8 @@
     margin: 0; 
 }
 body{
-    background-color: #F3F6F9;
+    background-color: #F3F6F9;;
+    
 }
 
 h1{
@@ -40,21 +41,17 @@ h1{
     margin-left: 4vh; 
     margin-right: 4vh;
     margin-bottom: 2vh;
-    border-radius: 20px
+    border-radius: 20px; 
 } 
 
-.new-button{
-    display: flex;
-    align-items: center;
-    justify-content: center ;
+.div-button{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+button{
     position: relative;
-    margin-left: 180px; 
-    border: none; 
-    background-color:#2290FF; 
-    color: #FFFFFF;
-    cursor: pointer; 
-    width: 86px;
-    height: 34px; 
-    border-radius: 8px; 
+    justify-content: center;
 }
 

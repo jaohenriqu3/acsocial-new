@@ -53,5 +53,6 @@ justify-content: center;
 button{
     position: relative;
     justify-content: center;
+    cursor: pointer;
 }
 

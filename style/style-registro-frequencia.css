@@ -39,4 +39,8 @@ body{
 .title-form{
     margin-bottom: 2vh;
 }
+
+button{
+    cursor: pointer;
+}
  

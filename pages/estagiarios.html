@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Estagiarios</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/form.css">
 </head>
 <body>
     <header class="navbar">
         <div class="logo-container">
           <div class="logo">
-            <img src="/acsocial-new/assets/logo-acsocial-branca.png" alt="">
+            <img src="../assets/logo-acsocial-branca.png" alt="">
           </div>
           <div class="title-subtitle">
             <h1>AC Social</h1>
-            <p>Registro de frequencia</p>
+            <p>Registro de estagiário</p>
           </div>
         </div>
         <button class="hamburger" onclick="toggleSidebar()">☰</button>
@@ -30,5 +32,85 @@
     </nav>
   </aside>
 
+  <section class="form-section-main">
+    <div class="form-section">
+        <!-- Container de Informações Pessoais -->
+        <div class="form-container">
+          <h2>Informações Pessoais</h2>
+          
+          <!-- Nome e Sobrenome -->
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+            
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" name="sobrenome">
+          </div>
+    
+          <!-- Nacionalidade, Estado Civil e Profissão -->
+          <div class="form-group">
+            <label for="nacionalidade">Nacionalidade</label>
+            <input type="text" id="nacionalidade" name="nacionalidade">
+            
+            <label for="estado-civil">Estado Civil</label>
+            <input type="text" id="estado-civil" name="estado-civil">
+            
+            <label for="profissao">Profissão</label>
+            <input type="text" id="profissao" name="profissao">
+          </div>
+    
+          <!-- CPF e RG -->
+          <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf">
+            
+            <label for="rg">RG</label>
+            <input type="text" id="rg" name="rg">
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+
+  <section class="form-section-main">
+    <div class="form-section">
+        <div class="form-container">
+            <h2>Endereço</h2>
+      
+            <!-- CEP e Endereço -->
+            <div class="form-group">
+              <label for="cep">CEP</label>
+              <input type="text" id="cep" name="cep">
+              
+              <label for="endereco">Endereço</label>
+              <input type="text" id="endereco" name="endereco">
+            </div>
+      
+            <!-- Número, Complemento e Estado -->
+            <div class="form-group">
+              <label for="numero">Número</label>
+              <input type="text" id="numero" name="numero">
+              
+              <label for="complemento">Complemento</label>
+              <input type="text" id="complemento" name="complemento">
+              
+              <label for="estado">Estado</label>
+              <input type="text" id="estado" name="estado">
+            </div>
+      
+            <!-- Cidade, Complemento e Bairro -->
+            <div class="form-group">
+              <label for="cidade">Cidade</label>
+              <input type="text" id="cidade" name="cidade">
+              
+              <label for="bairro">Bairro</label>
+              <input type="text" id="bairro" name="bairro">
+            </div>
+          </div>
+          <!-- Botão de Enviar -->
+        <button class="submit-button">Enviar</button>
+    </div>
+  </section>
+<script src="../script/sidebar.js"></script>
 </body>
 </html>

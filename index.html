@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Social</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+      <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo-container">
+      <div class="logo">
+        <img src="assets/logo-acsocial-branca.png" alt="">
+      </div>
+      <div class="title-subtitle">
+        <h1>AC Social</h1>
+        <p>Sistema de gerenciamento</p>
+      </div>
+    </div>
+    <button class="hamburger" onclick="toggleSidebar()">☰</button>
+  </header>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <button class="close-btn" onclick="toggleSidebar()">×</button>
+    <nav class="sidebar-menu">
+      <a href="#page1"> Registro Frequencia </a>
+      <a href="#page2"> Usuários</a>
+      <a href="#page3"> Voluntários</a>
+      <a href="#page4"> Estagiários</a>
+    </nav>
+  </aside>
+
+
+
+  <script src="script/sidebar.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif; 
+    background-color: #F3F6F9;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #AE4C4C;
+    color: #FFFFFF;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 1rem;
+    font-weight: bold;
+    font-size: 1.2rem; 
+  }
+
+  .logo img {
+    max-width: 200px;
+  }
+  
+  .title-subtitle h1 {
+    font-size: 1.2rem;
+  }
+  
+  .title-subtitle p {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  /* Hamburger Button */
+  .hamburger {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #DBDBDB;
+    color: rgb(0, 0, 0);
+    padding-top: 2rem;
+    transition: 0.3s;
+  }
+  
+  .sidebar.active {
+    right: 0;
+  }
+  
+  .sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 10px;
+  }
+  
+  .sidebar-menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #F3F6F9; 
+    border-radius: 13px;
+    margin-bottom: 10px;
+    padding: 1rem 0;
+    padding-left: 10px;
+    transition: 0.2s;
+  }
+  
+  .sidebar-menu a:hover {
+    background-color: #afafaf;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  

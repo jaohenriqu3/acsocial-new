@@ -1,0 +1,87 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container Formulário */
+
+  .form-section-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px
+  }
+
+  .form-section {
+    width: 90%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+  }
+  
+  .form-section label {
+    font-size: 1rem;
+    color: #333;
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .form-section input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .radio-options {
+    margin-top: 0.5rem;
+  }
+  
+  .radio-options label {
+    display: block;
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0.3rem 0;
+  }
+  
+  .radio-options input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+  
+  /* Botão de Enviar */
+  .submit-button {
+    padding: 0.5rem 1rem;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #007bb5;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 540px) {
+    .form-section label,
+    .radio-options label,
+    .submit-button {
+      font-size: 0.85rem;
+    }
+  
+    .form-section input[type="text"] {
+      font-size: 0.9rem;
+    }
+  }
+  

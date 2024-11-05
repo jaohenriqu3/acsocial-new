@@ -21,7 +21,7 @@ db.connect((err) => {
 
 // Manipular requisições
 const handleRequest = (req, res) => {
-  if (req.method === 'POST' && req.url === '/dados-formulario') {
+  if (req.method === 'POST' && req.url === '/data') {
     let body = '';
     req.on('data', chunk => {
       body += chunk.toString();

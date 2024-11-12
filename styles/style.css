@@ -163,6 +163,17 @@
     margin-top: 1.5rem;
   }
   
+  .login-signup a {
+    flex: 1;
+    font-size: 0.9rem;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
   .login-signup button {
     flex: 1;
     padding: 0.5rem;

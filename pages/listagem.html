@@ -32,14 +32,14 @@
         </nav>
       </aside>
 
-      <section>
+      <section class="list">
         <table>
             <thead>
               <tr>
                 <th>Nome</th>
                 <th>Sobrenome</th>
                 <th>Categoria</th>
-                <th>Ação</th>
+                <th>Informações</th>
               </tr>
             </thead>
             <tbody id="user-table">
@@ -48,9 +48,18 @@
           </table>
       </section>
 
+        <!-- Pop-up -->
+  <div class="popup" id="user-popup">
+    <div class="popup-content" id="popup-content">
+      <button class="close-btn-pop" onclick="closePopup()">Fechar</button>
+      <h3>Detalhes do Usuário</h3>
+      <p id="user-details"></p>
+    </div>
+  </div>
+
 
 
       <script src="/script/sidebar.js"></script>
-      <script src=""></script>
+      <script src="/script/list.js"></script>
 </body>
 </html>

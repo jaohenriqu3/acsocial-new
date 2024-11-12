@@ -246,7 +246,7 @@ const usuarios = [
         <td>${user.nome}</td>
         <td>${user.sobrenome}</td>
         <td>${user.categoria}</td>
-        <td><button class="button" onclick="showDetails(${index})">Ver Mais</button></td>
+        <td><button class="button-pop" onclick="showDetails(${index})">Ver Mais</button></td>
       `;
       tableBody.appendChild(row);
     });
@@ -292,7 +292,7 @@ const usuarios = [
         <td>${user.nome}</td>
         <td>${user.sobrenome}</td>
         <td>${user.categoria}</td>
-        <td><button class="button" onclick="showDetails(${index})">Ver Mais</button></td>
+        <td><button class="button-pop" onclick="showDetails(${index})">Ver Mais</button></td>
       `;
       tableBody.appendChild(row);
     });

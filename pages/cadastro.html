@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/style.css"> 
 </head>
 <body>
+    <header class="navbar">
+        <div class="logo-container">
+          <a href="../index.html"> <div class="logo">
+            <img src="../assets/logo-acsocial-branca.png" alt="">
+          </div> </a>
+          <div class="title-subtitle">
+            <h1>AC Social</h1>
+            <p>Sistema de gerenciamento</p>
+          </div>
+        </div>
+        <button class="hamburger" onclick="toggleSidebar()">☰</button>
+      </header>
     
+      <!-- Sidebar -->
+      <aside class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">×</button>
+        <nav class="sidebar-menu">
+          <a href="pages/registro-frequencia.html"> Registro Frequencia </a>
+          <a href="pages/usuarios.html"> Usuários</a>
+          <a href="pages/voluntarios.html"> Voluntários</a>
+          <a href="pages/estagiarios.html"> Estagiários</a>
+        </nav>
+      </aside>
+    
+    <section class="home-section"> 
+      <div class="center-section">
+        <h3 class="title">Marque a opção com a qual se identifica:</h3>
+    
+        <!-- Botões Verticais -->
+        <div class="button-group">
+          <a href="pages/usuarios.html"><button>Usuários</button></a>
+          <a href="pages/voluntarios.html"><button>Voluntários</button></a>
+          <a href="pages/estagiarios.html"><button>Estagiários</button></a>
+        </div>
+      </div> 
+    </section>
+
+    <!-- Login -->
+     <div class="cadlog">
+        <p>Já possui uma conta? <a href="/pages/login.html"> Fazer login</a></p>
+     </div>
+
+    
+    <script src="../script/sidebar.js"> </script>
 </body>
 </html>

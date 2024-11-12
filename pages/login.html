@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="../styles/style.css">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../styles/style.css"> 
+    <link rel="stylesheet" href="../styles/registro-frequencia.css">
 </head>
 <body>
     <header class="navbar">
         <div class="logo-container">
-          <a href="index.html"> <div class="logo">
-            <img src="assets/logo-acsocial-branca.png" alt="">
+          <a href="../index.html"> <div class="logo">
+            <img src="../assets/logo-acsocial-branca.png" alt="">
           </div> </a>
           <div class="title-subtitle">
             <h1>AC Social</h1>
@@ -30,26 +31,28 @@
           <a href="pages/estagiarios.html"> Estagiários</a>
         </nav>
       </aside>
-    
-    <section class="home-section"> 
-      <div class="center-section">
-        <h1 class="title">AC Social</h1>
-        <p class="subtitle">Gerenciamento de usuários e frequencia</p>
-    
-        <!-- Botões Verticais -->
-        <div class="button-group">
-          <a href="pages/registro-frequencia.html"><button>Registro Frequencia</button></a>
-          <a href="pages/usuarios.html"><button>Usuários</button></a>
-          <a href="pages/voluntarios.html"><button>Voluntários</button></a>
-          <a href="pages/estagiarios.html"><button>Estagiários</button></a>
+
+      <section class="form-section-main"> 
+        <div class="form-section">
+            <!-- Campo CPF -->
+            <label for="cpf">Digite seu CPF:</label>
+            <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" /> 
+
+            <label for="cpf">Digite sua senha:</label>
+            <input type="password" id="cpf" name="cpf" placeholder="********" />
+
+        
+            <!-- Botão de Enviar -->
+            <button class="submit-button">Login</button>
         </div>
+      </section>
+
+    <!-- Cadastro -->
+     <div class="cadlog">
+        <p>Não possui uma conta? <a href="/pages/cadastro.html">Cadastre-se</a></p>
+     </div>
+
     
-        <!-- Botões de Login e Cadastro -->
-        <div class="login-signup">
-          <button>Login</button>
-          <button>Cadastro</button>
-        </div>
-      </div> 
-    </section>
+    <script src="../script/sidebar.js"> </script>
 </body>
 </html>

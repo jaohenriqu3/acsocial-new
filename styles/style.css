@@ -190,6 +190,13 @@
     background-color: #007bb5;
   } 
 
+  .cadlog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
 
   /* Responsividade */
 @media (max-width: 540px) {

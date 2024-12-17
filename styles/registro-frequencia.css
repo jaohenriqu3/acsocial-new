@@ -31,7 +31,7 @@
     margin-top: 1rem;
   }
   
-  .form-section input {
+  .form-section input[type="text"] {
     width: 100%;
     padding: 0.5rem;
     margin-top: 0.5rem;
